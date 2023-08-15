@@ -1,0 +1,806 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Header start*/
+header{
+    width: 100%;
+    height:100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    margin-top: 19px;
+    margin-left: 150px;
+}
+.checkbtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+nav ul{
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+nav ul li {
+    list-style: none;
+    padding: 20px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding: 0 10px;
+}
+header button{
+
+    padding: 8px 23px;
+    margin-right: 130px;
+    background: rgb(65, 1, 65);
+    color: rgb(247, 196, 30);
+    font-size: 14px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+header button:hover{
+    border: 1px solid purple;
+    color: purple;
+    background: white;
+}
+.a:hover > .down1{
+    display: block;
+    transition: all .5s ease;
+}
+header .down1 ul li a > i{
+    position: relative;
+    top: 1px;
+    left: 60px;
+}
+.down1{
+    width: 200px;
+    height: 150px;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 220px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px rgb(233, 232, 232);
+}
+.down1 ul{
+    display: block;
+    position: relative;
+    left: -60px;
+}
+.down1 ul li{
+    padding: 10px 10px 15px 40px;
+}
+.down1 ul li i{
+    position: relative;
+    bottom: 20px;
+    left: 140px;
+}
+.down2{
+    width: 250px;
+    height: 150px;
+    display: none;
+    margin-top: -30px;
+    position: absolute;
+    left: 260px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(233, 232, 232);
+}
+.down2 ul{
+    display: block;
+    position: relative;
+    left: -60px;
+}
+.down2 ul li{
+    padding: 10px 10px 15px 40px;
+}
+.b:hover> .down2{
+    display: block;
+}
+/*Header End*/
+/*Section one start*/
+
+.section1{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+.section1 .sec1text{
+    width: 40%;
+    height: auto;
+}
+.sec1text .one{
+    font-size: 10px;
+    background: #FEF0D9;
+    padding: 7px 20px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: none;
+    color: #FBB244;
+}
+.sec1text h1{
+    position: relative;
+    width: 80%;
+    bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 150px;
+    color: #081158;
+}
+.sec1text .two{
+    position: relative;
+    bottom:100px;
+    background: #081158;
+    font-size: 17px;
+    padding: 12px 35px;
+    border-radius: 40px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: none;
+    color: white;
+}
+.sec1text .two:hover{
+    background: white;
+    color: #081158;
+    border: 1px solid #081158;
+    transition: all 0.4s ease-in;
+}
+.sec1text .three{
+    position: relative;
+    bottom: 100px;
+    background: white;
+    font-size: 17px;
+    padding: 12px 35px;
+    border-radius: 40px;
+    margin-bottom:150px;
+    border: 1px solid #081158;
+    color: #081158;
+}
+.sec1text .three:hover{
+    color: white;
+    background: #081158;
+    border: none;
+    transition: all 0.4s ease-in;
+}
+.sec1text p{
+    font-size: 14px;
+    width: 80%;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.7;
+    margin-left: 150px;
+    line-height: 30px;
+}
+.section .sideimg{
+    width: 60%;
+    height: auto;
+}
+.sideimg img{
+    width: 500px;
+    height: auto;
+    padding: 100px 0px 100px 100px ;
+    margin-left: 50px;
+}
+
+
+/*Section one End*/
+/*Section two start*/
+
+.section2{
+    width: 100%;
+    height: 90vh;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.four{
+    background: #FEF0D9;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    color: #FBB244;
+}
+
+.featuretext h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.featuretext p{
+    width: 52ch;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.7;
+}
+.services{
+    width: 88%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+.services .ser1,
+.services .ser2,
+.services .ser3 {
+    height: 250px;
+    margin: 30px;
+}
+.services .ser1 > i,
+.services .ser2 > i,
+.services .ser3 > i{
+    font-size: 50px;
+    color: #FDD8A1;
+}
+.services .ser1 > h3,
+.services .ser2 > h3,
+.services .ser3 > h3{
+    font-size: 20px;
+    color: #4e4e4e;
+}
+.services .ser1 > p,
+.services .ser2 > p,
+.services .ser3 > p{
+    font-size: 17px;
+    color: #8a8a8a;
+    width: 30ch;
+}
+
+/*Section two End*/
+
+/*Section three start*/
+
+.section3{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+}
+.section3 .sec2text{
+    width: 40%;
+    height: auto;
+}
+.sec2text .five{
+    font-size: 10px;
+    background: #FEF0D9;
+    padding: 7px 20px;
+    border-radius: 20px;
+    margin-right: 150px;
+    margin-top: 100px;
+    border: none;
+    color: #FBB244;
+}
+.sec2text h1{
+    position: relative;
+    width: 80%;
+    bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 150px;
+    color: #081158;
+}
+.sec2text .six{
+    position: relative;
+    bottom:100px;
+    background: #081158;
+    font-size: 17px;
+    padding: 12px 35px;
+    border-radius: 40px;
+    margin-right: 150px;
+    margin-top: 60px;
+    border: none;
+    color: white;
+}
+.sec2text .six:hover{
+    background: white;
+    color: #081158;
+    border: 1px solid #081158;
+    transition: all 0.4s ease-in;
+}
+.sec2text ul {
+    position: relative;
+    bottom: 40px;
+}
+.sec2text ul li{
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 30px;
+}
+.sec2text p{
+    font-size: 14px;
+    width: 45ch;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.7;
+    margin-right: 150px;
+    line-height: 30px;
+}
+.section3 .sideimg2{
+    width: 60%;
+    height: auto;
+}
+.sideimg2 img{
+    width: 500px;
+    height: auto;
+    padding: 100px 0px 100px 100px ;
+    margin-left: 50px;
+}
+/*Section three end*/
+/*section four start*/
+.section4{
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+}
+.seven{
+    background: #FEF0D9;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    color: #FBB244;
+}
+
+.servicetext h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.section4 .services2{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.services2 .left-service,
+.services2 .right-service
+{
+    width: 50%;
+    height: auto;
+}
+.left-service .ser,
+.right-service .ser{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 180px;
+    border: 1px solid rgb(214, 214, 214);
+    margin: 20px;
+    margin-right: 30px;
+}
+.left-service .ser .icon,
+.right-service .ser .icon{
+    font-size: 40px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center ;
+    margin: 20px;
+    width: 40%;
+    height: auto;
+}
+.left-service .ser .icon i,
+.right-service .ser .icon i{
+    font-size: 40px;
+    margin: 10px 0 50px 0px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.left-service .ser .text ,
+.right-service .ser .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.left-service .ser .text h3,
+.right-service .ser .text h3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.left-service .ser .text p,
+.right-service .ser .text p{
+    font-size: 14px;
+    margin-top: 0px;
+    padding-right: 20px;
+    opacity: 0.7;
+}
+/*section four end*/
+/*Testimonial start*/
+
+.testimonial{
+    width: 100%;
+    height: 100vh;
+    background: #F8F9FA;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+.eight{
+    background: #FEF0D9;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    color: #FBB244;
+}
+.testitext h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.testitext p{
+    width: 90ch;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.7;
+}
+.testicards{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.testicard{
+    width: 32%;
+    height: 280px;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.testicard p{
+    margin-left: 30px ;
+    text-align: left;
+    padding-right: 30px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+.testicard .person{
+    display: flex;
+}
+.person img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 30px ;
+    margin-top: 30px;
+    text-align: left;
+}
+.person .personname{
+    display: flex;
+    flex-direction: column;
+}
+.person .personname h1{
+    font-size: 20px;
+    margin-bottom:0 ;
+    margin-left: 20px ;
+    text-align: left;
+    margin-top: 40px;
+}
+.person .personname h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 20px ;
+    text-align: left;
+}
+
+.testicard:hover{
+    border: 1px solid #081158;
+}
+/*Testimonial end*/
+/*footer star*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.subfoot1{
+    display: flex;
+    width: 100%;
+}
+.subfoot1 .div1{
+    width: 35%;
+    margin-left: 150px;
+}
+.subfoot1 .div1 h1{
+    font-size: 15px;
+}
+.subfoot1 .div1 p{
+    font-size: 13px;
+    width: 45ch;
+}
+.subfoot1 .div1 i{
+    font-size: 25px;
+    color: #081158;
+    margin-top: 30px;
+}
+.subfoot1 .div2{
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subfoot1 .div2 h1{
+    font-size: 15px;
+}
+.subfoot1 .div2 ul li{
+    list-style: none;
+}
+.subfoot1 .div2 ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: -40px;
+    color: rgb(112, 112, 112);
+}
+.subfoot1 .div3 {
+    width: 35%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subfoot1 .div3 h1{
+    font-size: 15px;
+}
+.subfoot1 .div3 ul li{
+    list-style: none;
+}
+.subfoot1 .div3 ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: -40px;
+    color: rgb(112, 112, 112);
+}
+.subfoot1 .div3 ul li a i{
+    padding-right: 10px;
+}
+.subfoot2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.subfoot2 p{
+    font-size: 15px;
+}
+
+/*footer end*/
+/*Responsive design start*/
+
+@media(max-width: 768px){
+
+    header{
+        width: 100%;
+        height: 70px;
+    }
+    header .logo{
+        position: relative;
+        right: 60px;
+    }
+    nav ul{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .checkbtn{
+        display: flex;
+    }
+    header .checkbtn i{
+        font-size: 30px;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+    }
+    #check:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        top: 220px;
+        left: 0px;
+        background: white;
+        width: 260px;
+        height: 370px;
+        border: 1px solid gainsboro;
+        transition: all 0.5s ease-in;
+    }
+    nav ul .a:hover > .down1{
+        position: absolute;
+        top: 50px;
+        z-index: 99999;
+        right: 260px;
+        box-shadow: none;
+    }
+    .down2{
+        box-shadow: none;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 .sec1text{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .sec1text button{
+        position: relative;
+        right: 60px;
+    }
+    .sec1text h1{
+        position: relative;
+        right: 60px;
+        font-size: 32px;
+        width: 23ch;
+    }
+    .sec1text p{
+        position: relative;
+        right: 60px;
+        font-size: 15px;
+        width: 50ch;
+    }
+    .sideimg{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        bottom: 250px;
+        right: 70px;
+    }
+    .section2{
+        width: 100%;
+        height: auto;
+        margin-top: 300px;
+    }
+    .featuretext h1{
+        font-size: 32px;
+    }
+    .featuretext p{
+        width: 55ch;
+        font-size: 14px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .services .ser1 p,
+    .services .ser2 p,
+    .services .ser3 p{
+        width: 50ch;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .sideimg2{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        right: 70px;
+    }
+    .sec2text{
+        width: 100%;
+        height: auto;
+        margin-top: 400px;
+        text-align: left;
+        position: relative;
+        right: 300px;
+    }
+    .sec2text h1{
+        font-size: 32px;
+        width: 30ch;
+        padding-bottom: 10px;
+    }
+    .sec2text p{
+        font-size: 15px;
+        width: 50ch;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .sec2text ul li{
+        width: 50ch;
+    }
+    .sec2text .six{
+        padding-left: 30px;
+        width: 51%;
+    }
+    .section4{
+        width: 100%;
+        height: 200vh;
+    }
+    .servicetext .seven{
+        font-size: 12px;
+    }
+    .servicetext h1{
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    .services2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .services2 .left-service,
+    .services2 .right-service {
+        position: relative;
+        right: 70px;
+    }
+    .services2 .left-service .ser,
+    .services2 .right-service .ser{
+        width: 250%;
+    }
+    .testimonial{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    .testitext .eight{
+        font-size: 10px;
+    }
+    .testitext h1{
+        font-size: 32px;
+    }
+    .testitext p{
+        font-size: 14px;
+        width: 55ch;
+    }
+    .testicards{
+        display: flex;
+        flex-direction: column;
+    }
+    .testicards .testicard{
+        width: 80%;
+        height: 250px;
+        background: white;
+        margin: 20px auto;
+    }
+    .subfoot1{
+        display: flex;
+        flex-direction: column;
+    }
+    .subfoot1 .div2{
+        margin-left: 100px;
+    }
+    .subfoot1 .div3{
+        margin-left: 100px;
+    }
+    .subfoot1 .div1{
+        margin-left: 100px;
+    }
+    .subfoot2 p{
+        position: relative;
+        bottom: 50px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+
+}
+
+/*Responsive design end*/
